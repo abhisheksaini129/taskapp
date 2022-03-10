@@ -1,0 +1,46 @@
+body{
+    background-color:#E8F3FE;
+    box-sizing: border-box;
+    margin: 0;
+}
+.taskcreate{
+    background-color: white;
+    height: 33vmax;
+    width: 40vmax;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2vmax;
+}
+.textfield{
+    width: 38vmax;
+    height: 25vmax;
+    display: grid;
+    justify-content: center;
+    
+}
+.textfield>*{
+    width: 35vmax;
+    height: 6vmax;
+}
+
+
+.para{
+    width: 100%;
+    text-align: center;
+    font-size: 2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #003979;
+    font-weight: 800;
+}
+.textfield>button{
+    width: 65%;
+    height: 90%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: .5vmax;
+    font-size: 1vmax;
+    background-color: #003979;
+}
